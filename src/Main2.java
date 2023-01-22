@@ -5,7 +5,7 @@ public class miles {
         int bonus = 0;
         if (sum < con) {
             System.out.println("Бонус:" + (bonus));
-            System.out.println("Итоговая сумма: " + (bonus));
+            System.out.println("Итоговая сумма: " + (bonus + sum));
         } else {
             bonus = (sum / 100);
             System.out.println("Бонус:" + (bonus));
